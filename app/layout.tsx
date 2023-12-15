@@ -1,3 +1,6 @@
+import './ui/global.css';
+import { inter } from '@/app/ui/fonts';
+
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +8,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${inter.className} antialiased`}>
+        {children}
+
+        {/* <footer className="flex items-center justify-center py-10">
+          Learning Next.js 14
+        </footer> */}
+      </body>
     </html>
   );
 }

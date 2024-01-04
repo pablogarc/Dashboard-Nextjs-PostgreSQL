@@ -44,4 +44,4 @@ To install and run this project, follow these steps:
     npm run dev
     ```
 
-Now you can access the Dashboard app in your browser at [http://localhost:3000/].
+Now you can access the Dashboard app in your browser at `http://localhost:3000/`.
